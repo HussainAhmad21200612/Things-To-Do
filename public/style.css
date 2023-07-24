@@ -32,7 +32,10 @@ nav{
         height: 30px;
         border: 1px solid black;
         border-radius: 5px;
-        padding: 5px;;
+        padding: 5px;
+        outline: 3px solid #A8A196;
+        ;
+
     }
     #check{
         width: 20px;
@@ -49,9 +52,14 @@ width: 20px;
 height: 20px;
 border-radius: 5px;
 background-color:#A8A196 ;
-color: white;
+color:#FE0000;
 border: none;
 margin-left: 10px;
+
+}
+
+label:hover,#delete:hover{
+   transform: scale(1.4);
 }
 #task{
 margin : 5% auto 5% auto;
@@ -69,8 +77,15 @@ margin : 5% auto 5% auto;
     width: 40%;
     height: 30%;
     padding-left: 10%;
+    
 }
+
 #add{
     width: 210%;
     margin-left: 50%;
+    outline: 3px solid #A8A196;
+    
+}
+#name:hover{
+    outline-offset: 3px;
 }
