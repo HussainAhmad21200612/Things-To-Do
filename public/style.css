@@ -1,0 +1,76 @@
+#checkbox{
+    margin: 5% 0 0 5%;
+    width: 50%;
+    text-align: center;
+    /* //center the div */
+    background-color: #F4E0B9;
+    border-radius: 10px;;
+    padding: 3% 0 5% 0 ;
+    
+        
+    
+   
+
+}
+#task{
+    display: flex;
+        justify-content: center;
+}
+nav{
+    background-color:#A8A196;
+}
+#list{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+
+    background-color: #F4E0B9 ;
+}
+
+    #name{
+        width: 200px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;;
+    }
+    #check{
+        width: 20px;
+        height: 20px;
+    }
+    ul{
+        list-style: none;
+    }
+    input[type=checkbox]:checked + label.strikethrough{
+text-decoration: line-through;
+}
+#delete{
+width: 20px;
+height: 20px;
+border-radius: 5px;
+background-color:#A8A196 ;
+color: white;
+border: none;
+margin-left: 10px;
+}
+#task{
+margin : 5% auto 5% auto;
+}
+#content{
+    margin: 5% 0 0 0;
+    width: 40%;
+    height: 60%;
+    padding:5% 0 5% 5%  ;
+    text-align: center;
+    /* background-color: #F4E0B9; */
+}
+#type{
+    margin: 0 0 0 0;
+    width: 40%;
+    height: 30%;
+    padding-left: 10%;
+}
+#add{
+    width: 210%;
+    margin-left: 50%;
+}
