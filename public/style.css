@@ -89,3 +89,9 @@ margin : 5% auto 5% auto;
 #name:hover{
     outline-offset: 3px;
 }
+@media screen and (max-width: 900px) {
+  #task{
+    display: block;
+  }
+}
+ 
